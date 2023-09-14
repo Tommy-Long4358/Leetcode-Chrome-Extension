@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Hello Extensions",
+    "description": "An extension that restricts you from going on your favorite websites until one leetcode question is finished per day.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "images/hello_extensions.png"
+    },
+    "permissions": [
+      "alarms"
+    ]
+  }
